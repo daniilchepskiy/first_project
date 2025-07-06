@@ -230,19 +230,26 @@ h2{
     margin-bottom: 20px;
 }
 
-.content button{
+.a_portfolio{
+    display: block;
+    align-items: center;
+    text-align: center;
     border: 1px solid #a52424;
     width: 202px;
-    height: 60px;
     background: #fff;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
-}
-
-.content button a{
+    transition: background-color 0.3s ease;
     font-weight: 500;
     font-size: 18px;
     color: #a52424;
+    transition: 0.3s;
+}
+
+.a_portfolio:hover{
+    background-color: #a52424;
+    transition: background-color 0.3s ease;
+    color: white;
 }
 
 .price{
@@ -302,19 +309,26 @@ h2{
     color: #a52424;
 }
 
-.price_list_footer button{
+.a_price{
+    display: block;
+    align-items: center;
+    text-align: center;
     border: 1px solid #a52424;
     width: 249px;
     height: 60px;
-    background: #fff;
-    border-radius: 10px;
-}
-
-.price_list_footer button a{
     font-weight: 500;
     font-size: 18px;
-    text-align: center;
-    color: #a52424;
+    padding: 18px;
+    color: #A52424;
+    background: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.a_price:hover{
+    background-color: #A52424;
+    color: #fff;
+    transition: background-color 0.3s ease;
 }
 
 .enrol{
@@ -381,6 +395,7 @@ h2{
     line-height: 130%;
     letter-spacing: 0.05em;
     color: rgba(35, 35, 35, 0.35);
+    resize: none;
 }
 
 .submit{
@@ -393,6 +408,14 @@ h2{
     letter-spacing: 0.05em;
     text-align: center;
     color: #a52424;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover{
+    background-color: #A52424;
+    color: #fff;
+    transition: background-color 0.3s ease;
 }
 
 .enrol_form{
